@@ -69,9 +69,9 @@
             // btnCancelarHilo
             // 
             btnCancelarHilo.FlatStyle = FlatStyle.Flat;
-            btnCancelarHilo.Location = new Point(44, 269);
+            btnCancelarHilo.Location = new Point(58, 285);
             btnCancelarHilo.Name = "btnCancelarHilo";
-            btnCancelarHilo.Size = new Size(148, 51);
+            btnCancelarHilo.Size = new Size(126, 35);
             btnCancelarHilo.TabIndex = 7;
             btnCancelarHilo.Text = "Cancelar Procesos";
             btnCancelarHilo.UseVisualStyleBackColor = true;
@@ -81,9 +81,9 @@
             // btnSalir
             // 
             btnSalir.FlatStyle = FlatStyle.Flat;
-            btnSalir.Location = new Point(44, 425);
+            btnSalir.Location = new Point(86, 434);
             btnSalir.Name = "btnSalir";
-            btnSalir.Size = new Size(148, 51);
+            btnSalir.Size = new Size(70, 25);
             btnSalir.TabIndex = 6;
             btnSalir.Text = "Salir";
             btnSalir.UseVisualStyleBackColor = true;
