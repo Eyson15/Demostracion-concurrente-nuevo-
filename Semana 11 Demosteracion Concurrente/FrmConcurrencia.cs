@@ -12,7 +12,7 @@
 
         private void btnSecuencial_Click(object sender, EventArgs e)
         {
-            ActualizarResultado("Iniciando proceso secuencial..👀");
+            ActualizarResultado("Inicia proceso secuencial.");
             for (int i = 0; i < 5; i++)
             {
                 Thread.Sleep(1000);
@@ -47,7 +47,7 @@
                 try
                 {
 
-                    ActualizarResultado($"Iniciando nuevo hilo{Thread.CurrentThread.ManagedThreadId}...👀");
+                    ActualizarResultado($"Iniciando el nuevo hilo{Thread.CurrentThread.ManagedThreadId}👀");
                     for (int i = 0; i < 5; i++)
                     {
                         //LLAMAR A LA EXEPCION
@@ -60,7 +60,7 @@
                 catch (OperationCanceledException)
                 {
 
-                    ActualizarResultado("Hilo Cancelado");
+                    ActualizarResultado("Hilo Cancelado correctamente");
                 }
                 //va 1ro 
                 //ActualizarResultado($"Iniciando nuevo hilo{Thread.CurrentThread.ManagedThreadId}...👀");
@@ -97,7 +97,7 @@
                 catch (OperationCanceledException)
                 {
 
-                    ActualizarResultado("Tarea Cancelada");
+                    ActualizarResultado("Tarea Cancelada exitosamente");
                 }
                 //ActualizarResultado($"Iniciando  Task {Task.CurrentId}..........");
                 //for (int i = 0; i < 5; i++)
