@@ -11,7 +11,8 @@ namespace Semana_11_Demosteracion_Concurrente
             // To customize application configuration such as set high DPI settings or default font,
             // see https://aka.ms/applicationconfiguration.
             ApplicationConfiguration.Initialize();
-            Application.Run(new FrmConcurrencia());
+            //aca que se ejecute nuestro frm
+            Application.Run(new  FrmSimulacionTrafico ());
         }
     }
 }

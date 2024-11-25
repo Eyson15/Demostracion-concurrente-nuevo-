@@ -58,6 +58,7 @@
             splitContainer1.Panel1.Controls.Add(btnSecuencial);
             splitContainer1.Panel1.Controls.Add(btnIniciarTarea);
             splitContainer1.Panel1.Controls.Add(btnHilo);
+         
             // 
             // splitContainer1.Panel2
             // 
