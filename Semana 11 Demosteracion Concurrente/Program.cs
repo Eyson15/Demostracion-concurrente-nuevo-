@@ -12,7 +12,7 @@ namespace Semana_11_Demosteracion_Concurrente
             // see https://aka.ms/applicationconfiguration.
             ApplicationConfiguration.Initialize();
             //aca que se ejecute nuestro frm
-            Application.Run(new  FrmSimulacionTrafico ());
+            Application.Run(new  FrmPatronSingleton());
         }
     }
 }
