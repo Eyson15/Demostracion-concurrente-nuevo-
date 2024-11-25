@@ -31,7 +31,7 @@
             }
             txtResultado.AppendText($"{DateTime.Now:HH:mm:ss.fff}:{mensaje}{Environment.NewLine}");
         }
-        
+
 
         private void btnHilo_Click(object sender, EventArgs e)
         {
